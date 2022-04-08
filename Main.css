@@ -1,0 +1,135 @@
+body {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #14181E;
+}
+
+div {
+  position: relative;
+}
+
+.navbar {
+  background-color: #C52B30 !important;
+}
+
+.appt {
+  background-color: #87b7ce;
+  color: black;
+}
+
+.appt:hover {
+  background-color: #bf9b30;
+  color: black;
+}
+
+.dark-bg {
+  background-color: #14181E;
+}
+
+.bg-grey {
+  background-color: #C52B30;
+}
+
+.bg-light-shade {
+  background-color: #f8f9fa;
+}
+
+.btn-close {
+  color: #C52B30 !important;
+}
+
+.logo {
+  position: absolute;
+  width: 20%;
+  height: auto;
+  left: 2%;
+  top: -25%;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: .3rem;
+}
+
+.text-out {
+  position: absolute;
+  top: 30%;
+  left: -25%;
+  width: 45%;
+  height: auto;
+}
+
+.text-out-2 {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  width: 30%;
+}
+
+.slogan {
+  font-weight: 100;
+}
+
+.bold-text {
+  font-weight: 400;
+}
+
+.tranny {
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+}
+
+@media only screen and (max-width: 480px) {
+  .logo {
+    position: absolute;
+    width: 60%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .text-out {
+    position: absolute !important;
+    left: 15%;
+    top: 90%;
+    width: 70%;
+    height: auto;
+  }
+  .text-out-2 {
+    position: absolute !important;
+    top: 110%;
+    left: 15%;
+    height: auto;
+    width: 70%;
+  }
+  .smallflex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .maintRow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .padding-small {
+    border-top: 5% !important;
+  }
+  .text-sm-center {
+    text-align: center;
+  }
+  .btn-group {
+    padding: 12%;
+  }
+}
+/*# sourceMappingURL=Main.css.map */
